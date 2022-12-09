@@ -24,11 +24,10 @@ public class Login {
         int left = 3 - attempt;
         System.out.println("You have entered an  invalid Pin number!!! Please try again\n");
         if(left > 1){
-
+            System.out.println("You have " + left+  " attempts left " );
         }else{
-            
+            System.out.println("You have " + left+  " attempt left " );
         }
-        System.out.println("You have " + left+  " attempts left " );
         return false;
     }
 }
